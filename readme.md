@@ -7,6 +7,7 @@
 ## Current Progress
 
 - Boiler plate for HTML Added (may change ids and class Names according to requirement)
+- Hero image added
 
 ### Sections
 
