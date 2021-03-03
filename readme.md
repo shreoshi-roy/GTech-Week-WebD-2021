@@ -1,27 +1,37 @@
 # Portfolio Website
 
+`Note: ` Add all images in assets folder
+
 ## Done (add section wise completion to the list)
 
--
+[ <u>Note</u> : Add container class to every Section which will be handled using Media Queries using bootstrap based dimensions.
+https://getbootstrap.com/docs/5.0/layout/containers/ ]
+
+<br>
+
+- Hero Section
+- Journey Section
 
 ## Current Progress
 
 - Boiler plate for HTML Added (may change ids and class Names according to requirement)
-- Hero image added
+- Hero Section added (bit of parallax effect if required)
 
 ### Sections
 
-1. Navbar by
-2. Main Page by
-3. Journey Page by
-4. Project Page by
-5. Contact Page by
+1. Navbar by Manan
+2. Hero Section by Bhanu
+3. Journey Section by Himanshu
+4. Project Section by Riyan
+5. Contact Section by Bhanu
+6. Media queries implementation by Shreoshi
 
 ## Todo
 
-- Inject Data
-- Do styling
-- Do basic JS required for DOM Manipulation
+1. Navbar
+2. Project Section
+3. Contact Section
+4. Media queries implementation
 
 <br>
 
