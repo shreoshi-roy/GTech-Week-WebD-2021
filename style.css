@@ -6,7 +6,7 @@
 
 .hero {
   min-height: 80vh;
-  background-image: url("hero-image.webp");
+  background-image: url("assets/hero-image.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,23 +28,93 @@
   font-weight: bold;
 }
 
-#contact {
-  /* margin: 3rem; */
-  padding: 1rem;
-  min-height: 20vh;
+#journey {
+  padding: 4rem 0rem;
 }
 
-.contact__items {
+#journey > .title {
+  margin-bottom: 4rem;
+}
+
+#journey > .title > .name {
+  font-size: 3rem;
+}
+
+.journey__item {
+  align-items: stretch;
+  padding: 1rem 2rem;
+  margin: 1rem;
+}
+
+.journey__image {
+  width: 40%;
+  height: auto;
+  text-align: right;
+}
+
+.journey__image > img {
+  border-radius: 20px;
+  max-width: 20rem;
+  height: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.journey__item:hover img {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.journey__text {
+  min-height: 100%;
+  width: 60%;
+  margin-left: 3rem;
+}
+
+.journey__designation {
+  line-height: 1.25;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: gray;
+}
+
+.journey__title {
+  color: #3377cc;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.journey__info {
+  margin: 1.5rem 0 2rem 0;
+  color: #14171b;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.journey__date {
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.journey__button {
   margin: 2rem 0;
-}
-.contact__img {
-  margin: 1em;
-  max-width: 15%;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 50px;
+  background-color: #1b232b;
+  transition: all 0.3s ease;
 }
 
-.contact__link :hover {
-  transform: scale(1.2);
-  transition-duration: 0.5s;
+.journey__button:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.journey__button > a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
 }
 
 .container {
@@ -54,11 +124,11 @@
   justify-content: space-evenly;
 }
 
-.container  li{
-    list-style-type: none;
-    margin: 1.5em;
-    text-transform: uppercase;
-    font-size: 2em;
+.container li {
+  list-style-type: none;
+  margin: 1.5em;
+  text-transform: uppercase;
+  font-size: 2em;
 }
 
 .contact__heading {
@@ -67,7 +137,54 @@
 
 #achievements {
   padding: 2em;
-  background-image: url('ach-bg.webp');
+  background-image: url("assets/ach-bg.webp");
   min-height: 80vh;
   color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title > .name {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.line {
+  width: 6rem;
+  height: 3px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact {
+  /* margin: 3rem; */
+  padding: 1rem;
+  min-height: 20vh;
+}
+
+.contact__items {
+  margin: 2rem 0;
+}
+
+.contact__img {
+  margin: 1em;
+  max-width: 15%;
+}
+
+.contact__link :hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
 }
