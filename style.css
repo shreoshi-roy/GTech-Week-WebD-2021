@@ -10,6 +10,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: sans-serif;
+    background: transparent;
+}
+
+section {
+    position: relative;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    background: transparent;
+    z-index: 999;
+    background: transparent;
+}
+
+nav > ul {
+    background-color: transparent;
+}
+
+nav > li > a {
+    color: #f2f2f2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.95rem;
 }
 
 .title {
@@ -39,7 +70,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 .hero__text {
@@ -49,7 +79,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    font-style: italic;
 }
 
 /************** Journey ************/
@@ -181,3 +212,26 @@
     transform: scale(1.2);
     transition-duration: 0.5s;
 }
+.hero__name {
+    margin-top: 20px;
+    font-size: 3.4rem;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.hero__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__title > .line {
+    display: block;
+    width: 8vw;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 5px;
+    margin-top: 20px;
+}
+
