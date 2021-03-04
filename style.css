@@ -30,6 +30,7 @@ nav{
     background: transparent;
     z-index: 999;
     background: transparent;
+    transition: all 0.3s ease-in-out;
 }
 
 nav > ul {
