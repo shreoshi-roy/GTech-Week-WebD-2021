@@ -66,8 +66,10 @@ nav > li > a {
 
 /*********** Hero ************/
 .hero {
-    min-height: 80vh;
+    margin-top: -8vh;
+    min-height: 90vh;
     background-image: url("assets/hero-image.webp");
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
