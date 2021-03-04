@@ -160,7 +160,7 @@
 
 .projects__head {
     text-align: center;
-    padding: 10px;
+    padding: 30px;
 }
 
 .projects__title {
@@ -170,13 +170,12 @@
 
 .projects__line {
     height: 1px;
-    background-color: black;
     margin: 10px;
 }
 
 #projects {
     text-align: center;
-    padding: 80px;
+    padding: 50px;
     background-color: rgb(218, 218, 224);
 }
 
@@ -184,15 +183,22 @@
     float: left;
     margin-left: 5px;
     width: 32.5%;
-}  
-.projects__wrapper:after {
-    display: table;
+}
+
+.projects__body {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.projects__wrapper {
+    display: flex;
+    padding-top: 10px;
     clear: both;
     position: relative;
 }
 
 .projects__content {
-    margin: 20px;
+    margin: 30px;
     padding: 20px;
 }
 
