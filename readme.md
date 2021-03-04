@@ -11,6 +11,7 @@ https://getbootstrap.com/docs/5.0/layout/containers/ ]
 
 - Hero Section
 - Journey Section
+- Project Section
 
 ## Current Progress
 
@@ -29,9 +30,8 @@ https://getbootstrap.com/docs/5.0/layout/containers/ ]
 ## Todo
 
 1. Navbar
-2. Project Section
-3. Contact Section
-4. Media queries implementation
+2. Contact Section
+3. Media queries implementation
 
 <br>
 
