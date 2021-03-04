@@ -104,9 +104,10 @@ nav > li > a {
     margin: 1rem;
 }
 .journey__image {
-    width: 40%;
+    width: 35%;
     height: auto;
     text-align: right;
+    padding: 0;
 }
 .journey__image > img {
     border-radius: 20px;
@@ -238,3 +239,41 @@ nav > li > a {
     margin-top: 20px;
 }
 
+/* Media Queries */
+@media (max-width:1028px) {
+  *{
+    font-size: 80%;
+  }
+  .journey__item {
+    padding: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .journey__image {
+      width: 100%;
+      text-align: center;
+  }
+  .journey__text {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 2rem;
+      text-align: center;
+  }
+  .journey__button{
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+
+  .title > .name, #journey > .title > .name  {
+      font-size: 1.5rem;
+  }
+
+  .hero {
+      background-position: right;
+  }
+
+  #achievements {
+      min-height: 20vh;
+  }
+}
